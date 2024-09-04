@@ -3,8 +3,8 @@ import ProfilePic from '../assets/perfil.png';
 
 export default function Profile() {
   return (
-    <div className='w-3/6 top-48 relative flex items-center shadow-2xl'>
-       <div className='w flex items-center justify-center'>
+    <div className='w-3/6 flex mt-56 items-center shadow-2xl'>
+       <div className='flex items-center justify-center'>
             <img 
                 src={ProfilePic} 
                 alt='profile'
