@@ -43,7 +43,19 @@ export const ContactItem = [
         id: 1,
         name: 'Linkedin',
         link: 'https://www.linkedin.com/in/learagao/',
-        
+        icon: '/icon-linkedin-orange.png',
+    },
+    {
+        id: 2,
+        name: 'Github',
+        link: 'https://github.com/aragaoleticia',
+        icon: '/icon-github-orange.png',
+    },
+    {
+        id: 3,
+        name: 'E-mail',
+        email: 'leticia.aragao00@gmail.com',
+        icon: '/icon-email-orange.png',
+    },
 
-    }
 ]

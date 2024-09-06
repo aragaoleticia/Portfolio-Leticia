@@ -1,12 +1,15 @@
-import React from 'react'
-import Profile from './Profile'
-import ProjectsCard from './ProjectsCard'
+import React from 'react';
+import Profile from './Profile';
+import ProjectsCard from './ProjectsCard';
+import Navbar from './Navbar';
 
 function Home() {
+
   return (
     <div className='flex justify-start items-center flex-col  w-full h-screen'>
-       <Profile/>
-       <ProjectsCard/>
+      <Navbar/>
+      <Profile/>
+      <ProjectsCard/>
     </div>
   )
 }

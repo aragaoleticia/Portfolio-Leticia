@@ -4,12 +4,12 @@ import ProfilePic from '../assets/perfil.png';
 export default function Profile() {
   return (
     
-    <div className='w-full flex flex-col md:flex-row md:w-3/6 mt-20 md:mt-56 items-center shadow-2xl'>
+    <div className='flex p-9 flex-col md:flex-row md:w-3/6 mt-20 md:mt-40 items-center shadow-2xl'>
        <div className='flex items-center justify-center md:w-1/2'>
             <img 
                 src={ProfilePic} 
                 alt='profile'
-                className='rounded-full md:w-8/12 m-4 md:m-8'
+                className='rounded-full w-40 md:w-8/12 m-4 md:m-8'
             />
         </div> 
         <div className='ml-2 flex flex-col mr-4 md:mr-20 ms-1 md:w-1/2'>
