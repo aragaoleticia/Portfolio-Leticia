@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ContactItem } from '../data/data';
-import DownloadIcon from '../assets/icon-download-orange.png';
+import DownloadIcon from '../assets/icons8-download.png';
 import ResumePDF from '../assets/leticia-aragao-resume.pdf';
 
 export default function Navbar() {

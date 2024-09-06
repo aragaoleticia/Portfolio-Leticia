@@ -4,35 +4,30 @@ import iconHome from '../assets/icon-home.png';
 
 export default function Card({title, description, img, techs, liveDemo, github}) {
   return (
-    <div className='p-3 overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300'>
-    <div className='px-6 py-4'>
-        <h1 className='font-bold text-xl mb-4 text-gray-800 underline'>{title}</h1>
-    </div>
-    <div>
+    <div className='p-6 overflow-hidden shadow-xl max-w-md transform bg-gray-100 rounded-lg hover:scale-105 transition-transform duration-300'>
+        <h2 className='font-bold text-2xl mb-4 text-gray-800 underline'>{title}</h2>
         <img src={img} 
         alt='project print' 
-        className='w-full h-48 object-cover'/>
-    </div>
-    <div className='px-6 py-4'>
-        <p className='text-base text-gray-600'>{description}</p>
-    </div>
-    <div className='px-6 py-4 flex-wrap gap-2'>
+        className='w-full mb-6 object-cover'/>
+  
+        <p className='text-base text-gray-600 mb-4'>{description}</p>
+    <div className='flex flex-wrap gap-2 mb-6'>
       {techs.map((tech, index) => (
         <span
             key={index}
-            className={`px-3 py-1 font-bold text-sm underline uppercase ${
-              index % 3 === 0 ? 'text-blue' : 
-              index % 3 === 1 ? 'text-yellow' : 
-              'text-green'
+            className={`font-semibold text-sm uppercase ${
+              index % 3 === 0 ? 'text-purple-600' : 
+              index % 3 === 1 ? 'text-yellow-600' : 
+              'text-green-600'
             }`}
         >
             {tech}
         </span>
       ))}
     </div>
-    <div className='flex gap-4 mt-4 justify-center pb-6'>
+    <div className='flex gap-4 justify-center'>
 
-        <a className='bg-orange text-white uppercase font-bold flex gap-2 py-2 px-4 rounded-md hover:bg-orange-400 transition duration-300' 
+        <a className='bg-orange text-white flex items-center gap-2 py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-300' 
             rel='noreferrer'
             href={github}
             target="_blank"
