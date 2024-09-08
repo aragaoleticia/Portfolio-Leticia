@@ -1,3 +1,35 @@
+export const Skills = [
+    {
+        id: 1,
+        name: 'JavaScript',
+        className: 'text-yellow-600'
+    },
+    {
+        id: 2,
+        name: 'React',
+        className: 'text-blue-600'
+    },
+    {
+        id: 3,
+        name: 'Tailwind',
+        className: 'text-green-600'
+    },
+    {
+        id: 4,
+        name: 'Git',
+        className: 'text-red-600'
+        
+    },
+    {
+        id: 5,
+        name: 'GitHub',
+        className: 'text-black'
+    }
+
+]
+
+
+
 export const ProjectsItem = [
     {
         id: 1,

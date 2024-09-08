@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'orange': '#4B0082',
+      'main-color': '#4B0082',
       'white': '#F5F7F8',
       'gray-800': '#1f2937',
       'gray-600': '#4b5563',
@@ -16,6 +16,12 @@ module.exports = {
       'yellow-600': '#ca8a04',
       'green-600': '#16a34a',
       'indigo-800': '#3730a3',
+      'blue-600': '#2563eb',
+      'blue-700': '#1d4ed8',
+      'red-600': '#dc2626',
+      'neutral-900': '#0a0a0a',
+      'black': '#000000',
+      'gray-50': '#f9fafb',
 
     },
     extend: {},

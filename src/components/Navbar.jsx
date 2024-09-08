@@ -17,14 +17,14 @@ export default function Navbar() {
     }
 
   return (
-    <div className='flex gap-7 mt-9 text-gray-800'>
+    <div className='flex gap-6 mt-6 justify-center'>
         <a
             href={`${ResumePDF}?dl=`}
             download
             onClick={(event) => event.stopPropagation()}
-            className='text-center transform hover:scale-105 transition-transform duration-300' 
+            className='flex items-center text-gray-800 hover:scale-105 transition-transform duration-300' 
         >
-            <img src={DownloadIcon} className='w-9' alt='Download icon'/>
+            <img src={DownloadIcon} className='w-6 mr-2' alt='Download icon'/>
             CV
         </a>
       {ContactItem.map(({id, name, link, email, icon}) => (
@@ -32,9 +32,9 @@ export default function Navbar() {
             {email ? (
                 <button
                     onClick={() => handleEmailCLick(email)}
-                    className='cursor-pointer flex flex-col items-center transform hover:scale-105 transition-transform duration-300'
+                    className='flex items-center text-gray-800 hover:scale-105 transition-transform duration-300'
                 >
-                    <img src={icon}  className='w-9' alt={`${name} icon`}/>
+                    <img src={icon}  className='w-6 mr-2' alt={`${name} icon`}/>
                     {name}
                 </button>
             ) : (
@@ -42,16 +42,16 @@ export default function Navbar() {
                     href={link}
                     target='_blank'
                     rel='noreferrer'
-                    className='flex flex-col items-center transform hover:scale-105 transition-transform duration-300'
+                    className='flex items-center text-gray-800 hover:scale-105 transition-transform duration-300'
                 >
-                    <img src={icon} alt={`${name} icon`} className='w-9'/>
+                    <img src={icon} alt={`${name} icon`} className='w-6 mr-2'/>
                     {name}
                 </a>
             )
             }
 
             {email && copied && (
-                <div className='text-center absolute top-24 bg-gray-100 text-gray-800 px-2 py-1 rounded-md shadow-md'>
+                <div className='text-center absolute top-16 bg-gray-100 text-gray-800 px-2 py-1 rounded-md shadow-md'>
                     Email copied
                 </div>
             )}
