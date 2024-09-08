@@ -3,7 +3,7 @@
 
 ## Getting Started
 
-<a href="https://portfolio-phi-ten-11.vercel.app//" target="_blank">Click here</a> to visit the Fokus Pomodoro Timer.
+<a href="https://portfolio-phi-ten-11.vercel.app//" target="_blank">Click here</a> to visit my portfolio.
 
 A sleek and responsive personal portfolio website built using JavaScript, React, and Tailwind CSS. Designed to showcase your projects, skills, and contact information in a clean and modern layout.
 
