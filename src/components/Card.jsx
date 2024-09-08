@@ -36,7 +36,7 @@ export default function Card({title, description, img, techs, liveDemo, github})
             GitHub
         </a>
 
-        <a className='bg-main-color text-white uppercase font-bold flex gap-2 py-2 px-4 rounded-md hover:bg-purple-700 transition duration-300' 
+        <a className='bg-main-color text-white flex gap-2 py-2 px-4 rounded-md hover:bg-purple-700 transition duration-300' 
             rel='noreferrer'
             href={liveDemo}
             target="_blank"
