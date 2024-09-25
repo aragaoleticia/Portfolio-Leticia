@@ -36,36 +36,36 @@ export const ProjectsItem = [
         title: 'Share it',
         description: 'Share-it is a social media platform similar to Pinterest, where users can discover, save, and share images and ideas on customizable boards.',
         img: '/share-it.png',
-        techs: ['React','JavaScript', 'Tailwind', 'Sanity'],
+        techs: ['JavaScript','React','Tailwind', 'Sanity'],
         liveDemo: 'https://shareit-ebon.vercel.app/login',
         github: 'https://github.com/aragaoleticia/Shareit'
     },
     {
         id: 2,
+        title: 'Blogging',
+        description: 'This is a blog page web application that allows users to post text-based content, manage their profiles, and view a feed of all posts.',
+        img: '/blogging1.png',
+        techs: ['JavaScript','React', 'Tailwind', 'Firebase'],
+        liveDemo: 'https://blogging-app-roan.vercel.app/login',
+        github: 'https://github.com/aragaoleticia/Blogging-app'
+    },
+    {
+        id: 3,
         title: 'Task Swift',
         description: 'Project for managing tasks with drag-and-drop functionality and local storage support. Drag and drop tasks between columns',
         img: '/task.png',
-        techs: ['React', 'JavaScript','Local Storage API'],
+        techs: ['JavaScript','React','Local Storage API'],
         liveDemo: 'https://taskswift-dnd.vercel.app/',
         github: 'https://github.com/aragaoleticia/TaskSwift-dnd'
     },
     {
-        id: 3,
+        id: 4,
         title: 'Fokus Project',
-        description: 'It is a web application that helps users manage their time using the Pomodoro Technique.',
+        description: 'It is a web application that helps users manage their time using the Pomodoro Technique, with responsive design.',
         img: '/fokus.png',
-        techs: ['CSS','JavaScript', 'HTML'],
+        techs: ['JavaScript','CSS','HTML','Local Storage API'],
         liveDemo: 'https://fokus-pomodoro-timer.vercel.app/',
         github: 'https://github.com/aragaoleticia/Fokus'
-    },
-    {
-        id: 4,
-        title: 'Calculator',
-        description: 'A simple calculator built with React and Tailwind CSS.',
-        img: '/calculator.png',
-        techs: ['React','JavaScript', 'Tailwind'],
-        liveDemo: 'https://calculator-omega-cyan.vercel.app/',
-        github: 'https://github.com/aragaoleticia/Calculator'
     },
 ]
 

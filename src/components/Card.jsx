@@ -16,8 +16,8 @@ export default function Card({title, description, img, techs, liveDemo, github})
         <span
             key={index}
             className={`font-semibold text-sm uppercase ${
-              index % 3 === 0 ? 'text-purple-600' : 
-              index % 3 === 1 ? 'text-yellow-600' : 
+              index % 3 === 0 ? 'text-yellow-600' : 
+              index % 3 === 1 ? 'text-purple-600' : 
               'text-green-600'
             }`}
         >
